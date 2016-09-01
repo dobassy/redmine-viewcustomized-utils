@@ -1,0 +1,10 @@
+/*
+Path pattern: 	/issues/[0-9]+$
+*/
+
+/* CSS for issues */
+li code {
+  padding-left: 1em;
+  padding-right: 1em;
+  background-color: #eee;
+}

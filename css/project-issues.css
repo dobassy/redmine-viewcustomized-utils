@@ -1,0 +1,23 @@
+/*
+Path pattern: 	/projects/.+?/issues.*
+*/
+
+/* status-5 = finished */
+table.issues tr.status-5 {
+  color: gray;
+  background: #ddd;
+  border: solid 1px #eee;
+}
+table.issues tr.status-5 td {
+  border: solid 1px #eee;
+}
+
+table.issues td.text {
+      text-align: left;
+      padding-right: 3px;
+}
+
+table.issues td.text ul {
+      margin: 0;
+      padding-left: 10px;
+}

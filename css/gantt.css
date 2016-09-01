@@ -1,0 +1,36 @@
+/*
+Path pattern: 	/projects/.+?/issues/gantt
+*/
+
+div.issue-subject a.priority-highest,
+div.issue-subject a.priority-highest:link,
+div.issue-subject a.priority-highest:visited {
+    color: red;
+    font-weight: bold;
+}
+
+div.issue-subject a.priority-high2,
+div.issue-subject a.priority-high2:link,
+div.issue-subject a.priority-high2:visited {
+    color: red;
+}
+
+div.issue-subject a.priority-lowest,
+div.issue-subject a.priority-lowest:link,
+div.issue-subject a.priority-lowest:visited {
+    color: #bbb;
+}
+
+/*
+div.issue-subject a.overdue,
+div.issue-subject a.overdue:link,
+div.issue-subject a.overdue:visited {
+    color: orange;
+} */
+
+
+div.issue-subject a.closed,
+div.issue-subject a.closed:link,
+div.issue-subject a.closed:visited {
+    color: #ddd;
+}
