@@ -18,7 +18,7 @@ if (!version) {
 }
 
 // 対象バージョンがあればリンクにパラメータ追加
-var new_issue_link = $('a.new-issue').attr("href");
+var new_issue_link = $('a.new-issue-sub').attr("href");
 new_issue_link += '?issue%5Bfixed_version_id%5D=' + version;
-$('a.new-issue').attr("href", new_issue_link);
+$('a.new-issue-sub').attr("href", new_issue_link);
 });
