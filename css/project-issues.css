@@ -2,22 +2,53 @@
 Path pattern: 	/projects/.+?/issues.*
 */
 
-/* status-5 = finished */
-table.issues tr.status-5 {
-  color: gray;
-  background: #ddd;
-  border: solid 1px #eee;
-}
-table.issues tr.status-5 td {
-  border: solid 1px #eee;
+/* overdue */
+table.issues tr.overdue,
+table.issues tr.overdue a {
+    color: red;
 }
 
+/* status-5 = finished */
+table.issues tr.closed {
+    color: gray;
+    background: #ddd;
+    border: solid 1px #eee;
+}
+table.issues tr.closed td {
+    border: solid 1px #eee;
+}
+
+/* status-7 = panding */
+table.issues tr.status-7,
+table.issues tr.status-7 a {
+    color: #cecece;
+    border: solid 1px #eee;
+}
+table.issues tr.status-7 td.status {
+    color: #000;
+}
+
+/* status-1 = ready */
+tr.issue.status-1 td.status {
+  background-color: #f8f9d6;
+}
+
+/* layout */
 table.issues td.text {
-      text-align: left;
-      padding-right: 3px;
+        text-align: left;
+        padding-right: 3px;
 }
 
 table.issues td.text ul {
-      margin: 0;
-      padding-left: 10px;
+        margin: 0;
+        padding-left: 10px;
+}
+
+/* nowrap assigned_to */
+tr.issue td.assigned_to {
+    white-space: nowrap;
+}
+
+tr.issue td.subject {
+    min-width: 150px;
 }

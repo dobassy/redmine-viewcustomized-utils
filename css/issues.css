@@ -1,7 +1,7 @@
 /*
 Path pattern: 	/issues/[0-9]+$
 */
- 	
+
 
 /* CSS for issues */
 
@@ -17,3 +17,44 @@ div#content p > code {
     font-style: italic;
 }
 
+div.issue.closed.details {
+  background: #d1d1d1;
+}
+div.issue.closed.details hr {
+  background: #aaa;
+}
+
+#history h1 {
+        position: relative;
+        padding-bottom: .2em;
+        border-bottom: 4px solid #ccc;
+}
+#history h1::after {
+        position: absolute;
+        bottom: -4px;
+        left: 0;
+        z-index: 2;
+        content: '';
+        width: 20%;
+        height: 4px;
+        background-color: #3498db;
+}
+#history h2 {
+    margin-left: -2px;
+    padding: .25em 0 .25em .75em;
+    border-left: 8px solid #ccc;
+}
+#history h3 {
+    margin-left: 0px;
+    border-left: 4px solid #ccc;
+    padding: .25em 0 .25em .75em;
+}
+
+#history .journal .editable {
+    padding-left: 2em;
+    padding-bottom: 2em;
+}
+
+.jstEditor textarea {
+    height: 300px;
+}

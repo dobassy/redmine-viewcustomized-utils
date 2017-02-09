@@ -1,0 +1,42 @@
+/*
+Path pattern: 	/projects/(.+?/)wiki(/.+)?
+*/
+
+/* Wiki style */
+div.wiki.wiki-page > h1 {
+        position: relative;
+        margin-top: .5em;
+        margin-right: 2em;
+        padding-bottom: .2em;
+        border-bottom: 4px solid #ccc;
+}
+div.wiki.wiki-page > h1::after {
+        position: absolute;
+        bottom: -4px;
+        left: 0;
+        z-index: 2;
+        content: '';
+        width: 20%;
+        height: 4px;
+        background-color: #3498db;
+}
+div.wiki.wiki-page > h2 {
+    margin-left: 0px;
+    padding: .25em 0 .25em .75em;
+    border-left: 12px double #ccc;
+}
+div.wiki.wiki-page > h3 {
+    margin-left: 2px;
+    border-left: 4px solid #ccc;
+    padding: .25em 0 .25em .75em;
+}
+
+div.wiki ul {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+div.wiki li p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
