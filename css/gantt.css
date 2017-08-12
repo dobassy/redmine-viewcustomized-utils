@@ -2,7 +2,7 @@
 Path pattern: 	/projects/.+?/issues/gantt
 */
 
-/* ガントチャートで重要度を見やすく */
+/* Easier to see importance with Gantt */
 div.issue-subject a.priority-highest,
 div.issue-subject a.priority-highest:link,
 div.issue-subject a.priority-highest:visited {
@@ -21,14 +21,6 @@ div.issue-subject a.priority-lowest:link,
 div.issue-subject a.priority-lowest:visited {
     color: #bbb;
 }
-
-/*
-div.issue-subject a.overdue,
-div.issue-subject a.overdue:link,
-div.issue-subject a.overdue:visited {
-    color: orange;
-} */
-
 
 div.issue-subject a.closed,
 div.issue-subject a.closed:link,

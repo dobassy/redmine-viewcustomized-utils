@@ -1,12 +1,12 @@
 /*
 Path pattern: 	/.+
+Description: Default fonts setting for Japanese.
 */
 
-/* font-family: */
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic);
 body{
-    font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
-}
-
-h1, h2, h3, h4, h5, #top-menu {
-    font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+font-family: Avenir , "Open Sans" , "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto
+ , "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic"
+ , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro"
+ , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
 }

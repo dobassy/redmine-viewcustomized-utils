@@ -1,5 +1,8 @@
 /*
 Path pattern: 	/projects/.+?/issues.*
+Description: some patches for Issue list.
+             Important!! The mapping with the status numer
+              depends on the environment you are using.
 */
 
 /* Project Issues */

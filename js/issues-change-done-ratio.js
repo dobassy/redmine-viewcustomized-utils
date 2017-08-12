@@ -1,16 +1,18 @@
 //
 // Path pattern: 	/issues/[0-9]+$
-//
+// Description: Update progress rate when changing status.
+//              if the due date is blank, enter today's date.
+//              Important!! The mapping with the status numer
+//                depends on the environment you are using.
 
-// Path: /issues/[0-9]+$
 $(function(){
   // ステータス変更後のajaxイベント終了後
   $(document).ajaxComplete(function(){
-      // ステータスと進捗率の組み合わせ
+      // Mapping with status
       var statusMap = {
-              '1' : '0',   /* 新規 */
-              '5' : '100', /* 終了 */
-              '6' : '100'  /* 却下 */
+              '1' : '0',   /* New */
+              '5' : '100', /* Finished */
+              '6' : '100'  /* Rejected */
       };
       var status_id = $('#issue_status_id option:selected').val();
       var ratio = statusMap[status_id];

@@ -16,9 +16,9 @@ $(function(){
     $('#issue_status_id option[value=1]').attr('selected', true).trigger('change');
 
     // 開始日　⇒　今日
-    //$('#issue_start_date').val(getToday());
+    $('#issue_start_date').val(getToday());
     // 完了日
-    //$('#issue_due_date').val('');
+    $('#issue_due_date').val('');
     // 進捗率
     $('#issue_done_ratio').val('0');
 
@@ -29,7 +29,7 @@ $(function(){
 
 });
 
-/* 当日文字列を習得　「YYYY-MM-DD」 */
+/* get today's date "YYYY-MM-DD" */
 function getToday() {
 
     var now = new Date();

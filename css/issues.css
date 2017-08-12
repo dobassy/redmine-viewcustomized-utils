@@ -1,19 +1,21 @@
 /*
 Path pattern: 	/issues/[0-9]+$
+Description: some patches for Issue.
+  - Eaiser to see importance.
+  - Display the completed ticket in gray.
 */
 
 
 /* CSS for issues */
-
 li code {
-    padding: .2em .5em;
-    background-color: #ddf1ff;
+    padding: .2em .3em;
+    background-color: rgb(224, 224, 224);
     font-style: italic;
 }
 
 div#content p > code {
-    padding: .2em .5em;
-    background-color: #ddf1ff;
+    padding: .2em .3em;
+    background-color: rgb(224, 224, 224);
     font-style: italic;
 }
 
