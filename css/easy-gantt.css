@@ -1,0 +1,11 @@
+/*
+Path pattern:  /projects/.+?/easy_gantt
+Description: Fixed that EasyGantt icon display breaks with conbination of
+             EasyGantt plug-ing and Gitmike theme.
+             [easygantt]: https://www.easyredmine.com/redmine-gantt-plugin
+Compatible: Redmine 3.4.x / Easy Gantt 1.8 / Gitmike 1.1.0
+*/
+
+#easy_gantt.redmine .gantt-menu-button {
+  background-repeat: no-repeat;
+}
