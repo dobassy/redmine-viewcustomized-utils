@@ -2,6 +2,8 @@
 Path pattern: 	/projects/.+?/issues.*
 */
 
+/* Project Issues */
+
 /* overdue */
 table.issues tr.overdue,
 table.issues tr.overdue a {
@@ -33,7 +35,9 @@ tr.issue.status-1 td.status {
   background-color: #f8f9d6;
 }
 
-/* layout */
+/*
+  layout
+ */
 table.issues td.text {
         text-align: left;
         padding-right: 3px;
@@ -46,9 +50,13 @@ table.issues td.text ul {
 
 /* nowrap assigned_to */
 tr.issue td.assigned_to {
-    white-space: nowrap;
+  white-space: nowrap;
 }
 
 tr.issue td.subject {
-    min-width: 150px;
+  min-width: 150px;
+}
+/* cf_2 = fixed condition  */
+tr.issue td.cf_2 {
+  min-width: 100px;
 }
