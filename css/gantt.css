@@ -2,6 +2,7 @@
 Path pattern: 	/projects/.+?/issues/gantt
 */
 
+/* ガントチャートで重要度を見やすく */
 div.issue-subject a.priority-highest,
 div.issue-subject a.priority-highest:link,
 div.issue-subject a.priority-highest:visited {
